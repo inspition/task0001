@@ -3,11 +3,12 @@
 	padding: 0;
 }
 
-a {
+a, th, td {
 	color: #fff;
 	text-decoration: none;
 }
 
+/*------------header------------*/
 #header {
 	position: relative;
 	width: 100%;
@@ -20,20 +21,29 @@ li {
 }
 
 #header .header-menu {
+	position: relative;
+	bottom: 0;
 	margin: auto auto 5px;
-	height: 37px;
 	width: 980px;
+	height: 75px;
 }
 
-#header img {
+#header > a {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	margin:auto 10px 0 auto;
 }
 
+@media screen and (max-width: 980px) {
+	#header > a {
+		display: none;
+	}	
+}
 #header .header-menu ul {
-	float: right;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
 .header-menu ul li {
@@ -42,10 +52,46 @@ li {
 }
 
 #header .header-menu h1 {
-	float: left;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	color: #fff;
 }
 
-ul li a {
-	
+/*------------main------------*/
+.main-wrap .main-banner img {
+	display: block;
+}
+
+/*------------footer------------*/
+#footer .footer-menu {
+	border-bottom: 1px solid #333;
+}
+
+#footer .footer-menu ul {
+	text-align: center;
+	margin: 0 auto;
+	background-color: #000;
+}
+
+.footer-menu ul li {
+	display: inline-block;
+	padding: 15px
+}
+
+#footer .footer-menub {
+	background-color: #000;
+	padding-top: 10px
+}
+
+#footer .footer-menub table {
+	margin: 0 auto;
+	width: 980px;
+}
+
+.footer-menub table th {
+	font-weight: normal;
+	text-align: left;
+	line-height: 600%;
+	color: #c9c9c9;
 }
