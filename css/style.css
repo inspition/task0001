@@ -5,7 +5,12 @@
 
 a, th, td {
 	color: #fff;
+	line-height: 1.3em;
 	text-decoration: none;
+}
+
+a[name="hover"] {
+	text-decoration: underline;
 }
 
 /*------------header------------*/
@@ -61,9 +66,14 @@ li {
 /*------------main------------*/
 .main-wrap .main-banner img {
 	display: block;
+	width: 100%;
 }
 
 /*------------footer------------*/
+#footer {
+	background-color: #000;
+}
+
 #footer .footer-menu {
 	border-bottom: 1px solid #333;
 }
@@ -71,7 +81,6 @@ li {
 #footer .footer-menu ul {
 	text-align: center;
 	margin: 0 auto;
-	background-color: #000;
 }
 
 .footer-menu ul li {
@@ -81,7 +90,7 @@ li {
 
 #footer .footer-menub {
 	background-color: #000;
-	padding-top: 10px
+	padding: 10px 0 38px;
 }
 
 #footer .footer-menub table {
@@ -92,6 +101,15 @@ li {
 .footer-menub table th {
 	font-weight: normal;
 	text-align: left;
-	line-height: 600%;
+	line-height: 4em;
 	color: #c9c9c9;
+}
+
+#footer .copyright {
+	text-align: center;
+}
+
+#footer .copyright p {
+	line-height: 4em;
+	color: #fff;
 }
