@@ -64,9 +64,31 @@ li {
 }
 
 /*------------main------------*/
+.main-wrap .main-banner {
+	position: relative;
+}
+
 .main-wrap .main-banner img {
 	display: block;
 	width: 100%;
+}
+
+.main-banner .banner-textbg {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 370px;
+}
+
+.main-banner .banner-textbg h1 {
+	text-align: right;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 2.5em;
+}
+
+.main-banner .banner-textbg p {
+	font-size: 12px;
 }
 
 /*------------footer------------*/
