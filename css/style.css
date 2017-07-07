@@ -13,6 +13,10 @@ a[name="hover"] {
 	text-decoration: underline;
 }
 
+body {
+	overflow: scroll;
+}
+
 /*------------header------------*/
 #header {
 	position: relative;
