@@ -13,9 +13,6 @@ a[name="hover"] {
 	text-decoration: underline;
 }
 
-body {
-	overflow: scroll;
-}
 
 /*------------header------------*/
 #header {
@@ -74,25 +71,35 @@ li {
 }
 
 .main-wrap .main-banner img {
+	position: absolute;
 	display: block;
 	width: 100%;
 }
 
-.main-banner .banner-textbg {
+.main-wrap .main-banner .b-t-bg {
+	position: relative;
+	margin: 0 auto;
+	width: 980px;
+	height: 535px;
+}
+
+.b-t-bg .banner-textbg {
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	width: 370px;
+	padding: 10px 10px 30px;
+	width: 350px;
+	color: #fff;
 }
 
-.main-banner .banner-textbg h1 {
+.b-t-bg .banner-textbg h1 {
+	margin-bottom: 12px;
 	text-align: right;
 	font-size: 14px;
 	font-weight: normal;
-	line-height: 2.5em;
 }
 
-.main-banner .banner-textbg p {
+.b-t-bg .banner-textbg p {
 	font-size: 12px;
 }
 
