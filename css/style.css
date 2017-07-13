@@ -68,12 +68,14 @@ li {
 /*------------main------------*/
 .main-wrap .main-banner {
 	position: relative;
+	overflow: hidden;
 }
 
 .main-wrap .main-banner img {
 	position: absolute;
-	display: block;
-	width: 100%;
+	left: 50%;
+	margin-left: -610px;
+	max-height: 535px;
 }
 
 .main-wrap .main-banner .b-t-bg {
@@ -90,15 +92,9 @@ li {
 	padding: 10px 10px 30px;
 	width: 350px;
 	color: #fff;
-	background: -webkit-gradient(linear, center top, center bottom,
-		from(0,rgba(255,255,255,0.7)),
-		color-stop(0.25,rgba(255,255,255,0.5)),
-		to(1,rgba(255,255,255,0)));
-	/*background: -webkit-linear-gradient(
-		to top,
-		rgba(255,255,255,0.7) 0%
-		rgba(255,255,255,0.5) 25%
-		rgba(255,255,255,0) 100%);*/
+	background: -webkit-linear-gradient(rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.5) 75%, rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.5) 75%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.5) 75%, rgba(255,255,255,0) 100%);
 }
 
 .b-t-bg .banner-textbg h1 {
