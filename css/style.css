@@ -3,7 +3,9 @@
 	padding: 0;
 }
 
-a, th, td {
+a,
+th,
+td {
 	color: #fff;
 	line-height: 1.3em;
 	text-decoration: none;
@@ -13,6 +15,11 @@ a[name="hover"] {
 	text-decoration: underline;
 }
 
+#header,
+#main,
+#footer {
+	overflow: hidden;
+}
 
 /*------------header------------*/
 #header {
@@ -68,7 +75,6 @@ li {
 /*------------main------------*/
 .main-wrap .main-banner {
 	position: relative;
-	overflow: hidden;
 }
 
 .main-wrap .main-banner img {
