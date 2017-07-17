@@ -45,7 +45,7 @@ li {
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	margin:auto 10px 0 auto;
+	margin: auto 10px 0 auto;
 }
 
 @media screen and (max-width: 980px) {
