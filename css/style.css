@@ -114,6 +114,23 @@ li {
 	font-size: 12px;
 }
 
+#main .main-wrap .content {
+	position: relative;
+	width: 100%;
+	height: 480px;
+	background-color: #eee;	
+}
+
+.main-wrap .content .content-bg {
+	margin: 0 auto;
+	width: 980px;
+	height: 480px;
+}
+
+.content .content-bg dl {
+	float: left;
+}
+
 /*------------footer------------*/
 #footer {
 	background-color: #000;
