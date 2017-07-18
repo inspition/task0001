@@ -129,14 +129,27 @@ li {
 
 .content .content-bg dl {
 	float: left;
-	margin-left: 10px;
+	margin: 10px 0 0 10px;
+	padding-bottom: 25px;
 	width: 320px;
-	min-height: 360px;
+	min-height: 335px;
 	background-color: #fff;
 }
 
 dl:first-child {
 	margin-left: 0 !important;
+}
+
+.content-bg dl img {
+	border: 10px solid transparent;
+	border-bottom-width: 15px;
+}
+
+.content-bg dl p {
+	padding: 0 30px;
+	font-size: 12px;
+	line-height: 170%; 
+	text-indent: 2em;
 }
 
 /*------------footer------------*/
