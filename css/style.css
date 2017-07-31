@@ -152,6 +152,10 @@ dl:first-child {
 	text-indent: 2em;
 }
 
+.wrap.content-bg {
+	
+}
+
 /*------------footer------------*/
 #footer {
 	background-color: #000;
