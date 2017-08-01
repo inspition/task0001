@@ -160,6 +160,31 @@ dl:first-child {
 	display: flex;
 }
 
+#main .main-wrap .main-am {
+	position: relative;
+	width: 100%;
+	background-color: #fff;
+}
+
+.main-wrap .main-am .main-am-bg{
+	margin: 0 auto;
+	width: 980px;
+	height: 520px;
+	text-align: center;
+}
+
+.main-am .main-am-bg img{
+	margin-top: -50px;
+}
+
+.main-am .main-am-bg h1{
+	font: 20px "Century Gothic";
+}
+
+.main-am .main-am-bg p{
+
+}
+
 /*------------footer------------*/
 #footer {
 	background-color: #000;
