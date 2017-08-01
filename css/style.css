@@ -79,20 +79,21 @@ li {
 /*------------main------------*/
 .main-wrap .main-banner {
 	position: relative;
+	text-align: center;
 }
 
-.main-wrap .main-banner img {
+/* .main-wrap .main-banner img {
 	position: absolute;
 	left: 50%;
 	margin-left: -610px;
 	max-height: 535px;
-}
+} */
 
 .main-wrap .main-banner .b-t-bg {
 	position: relative;
 	margin: 0 auto;
 	width: 980px;
-	height: 535px;
+	/*height: 535px;*/
 }
 
 .b-t-bg .banner-textbg {
@@ -171,18 +172,24 @@ dl:first-child {
 	width: 980px;
 	height: 520px;
 	text-align: center;
+	color: #000;
 }
 
 .main-am .main-am-bg img{
-	margin-top: -50px;
+	margin: -50px 0 50px;
 }
 
 .main-am .main-am-bg h1{
 	font: 20px "Century Gothic";
+	margin-bottom: 50px;
 }
 
 .main-am .main-am-bg p{
-
+	margin: 0 auto;
+	width: 600px;
+	font-size: 14px;
+	text-indent: 2em;
+	line-height: 2em;
 }
 
 /*------------footer------------*/
