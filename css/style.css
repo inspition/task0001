@@ -76,6 +76,8 @@ li {
 	color: #fff;
 }
 
+/* End Header */
+
 /*------------main------------*/
 .main-wrap .main-banner {
 	position: relative;
@@ -192,6 +194,9 @@ dl:first-child {
 	line-height: 2em;
 }
 
+
+/* END Main */
+
 /*------------footer------------*/
 #footer {
 	background-color: #000;
@@ -236,3 +241,5 @@ dl:first-child {
 	line-height: 4em;
 	color: #fff;
 }
+
+/* End Footer */
