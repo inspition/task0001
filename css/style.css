@@ -21,8 +21,10 @@ a[name="hover"] {
 	overflow: hidden;
 }
 
-body {
-	
+body {}
+
+#main {
+	background-color: #eee;
 }
 
 /*------------header------------*/
@@ -78,7 +80,7 @@ li {
 
 /* End Header */
 
-/*------------main------------*/
+/* Main-index */
 .main-wrap .main-banner {
 	position: relative;
 	text-align: center;
@@ -195,7 +197,11 @@ dl:first-child {
 }
 
 
-/* END Main */
+/* END Main-index */
+
+/* Main-blog */
+
+/* END Main-blog */
 
 /*------------footer------------*/
 #footer {
