@@ -25,6 +25,7 @@ body {}
 
 #main {
 	background-color: #eee;
+	height: 1528px;
 }
 
 /*------------header------------*/
@@ -200,7 +201,18 @@ dl:first-child {
 /* END Main-index */
 
 /* Main-blog */
-  
+#main .m-blog{
+	margin: 0 auto;
+	width: 980px;
+}
+
+#main .m-blog .list{
+	margin-right: 10px;
+	width: 710px;
+}
+
+.m-blog .list .list-item{}
+
 /* END Main-blog */
 
 /*------------footer------------*/
