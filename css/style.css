@@ -201,7 +201,7 @@ dl:first-child {
 
 /* Main-blog */
 #main .m-blog{
-	margin: 0 auto;
+	margin: 20px auto 330px;
 	width: 980px;
 }
 
