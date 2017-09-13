@@ -224,12 +224,14 @@ dl:first-child {
 }
 
 .list-item .tags .time{
-	height: 40px;
+	line-height: 40px;
+	text-align: center;
 	background-color: #522a5c;
 }
 
 .list-item .tags .tag{
-	height: 40px;
+	line-height: 40px;
+	text-align: center;
 	background-color: #a660b7;
 }
 
