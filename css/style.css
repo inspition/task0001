@@ -210,7 +210,28 @@ dl:first-child {
 	width: 710px;
 }
 
-.m-blog .list .list-item{}
+.m-blog .list .list-item{
+	margin-bottom: 10px;
+	padding-top: 20px;
+	background-color: #fff;
+}
+
+.list .list-item .tags{
+	float: left;
+	margin-left: -50px;
+	width: 50px;
+	color: #fff;
+}
+
+.list-item .tags .time{
+	height: 40px;
+	background-color: #522a5c;
+}
+
+.list-item .tags .tag{
+	height: 40px;
+	background-color: #a660b7;
+}
 
 /* END Main-blog */
 
