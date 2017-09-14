@@ -269,6 +269,10 @@ dl:first-child {
 	background-color: #fff;
 }
 
+.page li a{
+	color: #000;
+}
+
 /* END Main-blog */
 
 /*------------footer------------*/
