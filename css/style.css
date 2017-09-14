@@ -212,13 +212,13 @@ dl:first-child {
 
 .m-blog .list .list-item{
 	margin-bottom: 10px;
-	padding-top: 20px;
+	padding: 20px;
 	background-color: #fff;
 }
 
 .list .list-item .tags{
 	float: left;
-	margin-left: -50px;
+	margin-left: -70px;
 	width: 50px;
 	color: #fff;
 }
@@ -233,6 +233,40 @@ dl:first-child {
 	line-height: 40px;
 	text-align: center;
 	background-color: #a660b7;
+}
+
+.list .list-item h1{
+	font-size: 16px;
+	color: #a660b7;
+}
+
+.list .list-item h2{
+	font-size: 12px;
+	line-height: 30px;
+	color: #666;
+}
+
+.list .list-item p{
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+
+.list .list-item span{
+	display: block;
+	margin-top: 30px;
+	text-align: right;
+	color: #999;
+}
+
+.list .page ul{
+	text-align: center;
+}
+
+.page ul li{
+	display: inline-block;
+	margin-right: 10px;
+	padding: 15px;
+	background-color: #fff;
 }
 
 /* END Main-blog */
@@ -253,7 +287,7 @@ dl:first-child {
 
 .footer-menu ul li {
 	display: inline-block;
-	padding: 15px
+	padding: 15px;
 }
 
 #footer .footer-menub {
