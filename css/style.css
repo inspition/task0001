@@ -273,16 +273,16 @@ dl:first-child {
 	color: #000;
 }
 
-.page ul > .pgnow {
+.page .pgnow a {
+	pointer-events:none;
 	color: #999;
 }
 
-.list .page .now {
+.page ul .pgnow.now {
 	background-color: #a660b7;
 }
 
-.list .page a.pgnow {
-	pointer-events: none;
+ul .pgnow.now a {
 	color: #fff;
 }
 
