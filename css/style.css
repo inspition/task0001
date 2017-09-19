@@ -201,11 +201,13 @@ dl:first-child {
 
 /* Main-blog */
 #main .m-blog {
+	overflow: auto;
 	margin: 20px auto 330px;
 	width: 980px;
 }
 
 #main .m-blog .list {
+	float: left;
 	margin-right: 10px;
 	width: 710px;
 }
@@ -284,6 +286,11 @@ dl:first-child {
 
 ul .pgnow.now a {
 	color: #fff;
+}
+
+#main .m-blog .sidebar {
+	float: left;
+	width: 260px;
 }
 
 /* END Main-blog */
