@@ -293,6 +293,41 @@ ul .pgnow.now a {
 	width: 260px;
 }
 
+.m-blog .sidebar .search {
+	margin-bottom: 10px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.sidebar .search form {
+	overflow: auto;
+	border: 1px solid #ddd;
+}
+
+.sidebar .search img {
+	float: left;
+}
+
+.sidebar .search input {
+	float: left;
+	border: none;
+	width: 130px;
+	height: 40px;
+}
+
+::-webkit-input-placeholder {
+	color: #999;
+}
+
+.sidebar .search button {
+	float: left;
+	border: none;
+	width: 48px;
+	height: 40px;
+	font-size: 25px;
+	color: #fff;
+}
+
 /* END Main-blog */
 
 /*------------footer------------*/
