@@ -201,7 +201,6 @@ dl:first-child {
 
 /* Main-blog */
 #main .m-blog {
-	overflow: auto;
 	margin: 20px auto 330px;
 	width: 980px;
 }
@@ -326,6 +325,32 @@ ul .pgnow.now a {
 	height: 40px;
 	font-size: 25px;
 	color: #fff;
+}
+
+.html,
+.css,
+.js,
+.other {
+	cursor: pointer;
+	border-top: 1px solid #ddd;
+	border-left: 4px solid #dfc6e6;
+	background-color: #fff;
+}
+
+.sidebar .subnav div:last-child {
+	border-bottom: 1px solid #ddd;
+}
+
+.sidebar .subnav a {
+	display: block;
+	margin-left: 14px;
+	line-height: 49px;
+	color: #666;
+}
+
+.sidebar .subnav .css,
+.sidebar .subnav div:hover {
+	border-left: 4px solid #522a5c;
 }
 
 /* END Main-blog */
