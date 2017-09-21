@@ -339,6 +339,10 @@ ul .pgnow.now a {
 	background-color: #fff;
 }
 
+.m-blog .sidebar .subnav {
+	margin-bottom: 10px;
+}
+
 .sidebar .subnav div:last-child {
 	border-bottom: 1px solid #ddd;
 }
@@ -353,6 +357,30 @@ ul .pgnow.now a {
 .sidebar .subnav .css,
 .sidebar .subnav div:hover {
 	border-left: 4px solid #522a5c;
+}
+
+.m-blog .sidebar .time {
+	margin-bottom: 10px;
+	padding: 20px 0;
+	background-color: #fff;
+}
+
+.sidebar .time table {
+	border-spacing: 14px 12px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+.time tbody tr {
+	border-bottom: 1px solid #999;
+}
+
+.sidebar .time th {
+	color: #773c88;
+}
+
+.sidebar .time td {
+	color: #999;
 }
 
 /* END Main-blog */
