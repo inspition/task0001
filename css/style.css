@@ -281,6 +281,8 @@ dl:first-child {
 	color: #999;
 }
 
+.now,
+.sidebar .time td:hover,
 .page ul .pgnow.now {
 	background-color: #a660b7;
 }
@@ -375,8 +377,6 @@ ul .pgnow.now a {
 	border-bottom: 1px solid #eee;
 }
 
-.time table tbody {}
-
 .sidebar .time th {
 	color: #773c88;
 }
@@ -386,6 +386,44 @@ ul .pgnow.now a {
 	line-height: 30px;
 	text-align: center;
 	color: #999;
+}
+
+.m-blog .sidebar .tags {
+	padding: 10px 20px 30px;
+	background-color: #fff;
+}
+
+.sidebar .tags h1 {
+	font-size: 1em;
+	font-weight: normal;
+	color: #666;
+}
+
+.sidebar .tags ul {
+	margin-top: 1em;
+	color: #773c88;
+}
+
+.sidebar .tags li {
+	display: inline-block;
+}
+
+/* .sidebar .tags p {
+	font-size: 1em;
+	word-break: break-word;
+	color: #773c88;
+} */
+
+.sidebar .tags .tags-1 {
+	font-size: 1.9em;
+}
+
+.sidebar .tags .tags-2 {
+	font-size: 1.3em;
+}
+
+.sidebar .tags .tags-3 {
+	font-size: 0.8em;
 }
 
 /* END Main-blog */
