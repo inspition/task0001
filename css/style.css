@@ -366,20 +366,25 @@ ul .pgnow.now a {
 }
 
 .sidebar .time table {
-	border-spacing: 14px 12px;
+	border-collapse: collapse;
 	margin: 0 auto;
 	font-size: 12px;
 }
 
 .time tbody tr {
-	border-bottom: 1px solid #999;
+	border-bottom: 1px solid #eee;
 }
+
+.time table tbody {}
 
 .sidebar .time th {
 	color: #773c88;
 }
 
 .sidebar .time td {
+	padding: 0 8px;
+	line-height: 30px;
+	text-align: center;
 	color: #999;
 }
 
