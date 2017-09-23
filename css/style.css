@@ -439,6 +439,19 @@ ul .pgnow.now a {
 	width: 980px;
 }
 
+#main .m-gallery .content {}
+
+.m-gallery .content .nav {
+	display: inline-block;
+	background-color: #fff;
+}
+
+.content .nav ul {}
+
+.content .nav li {
+	display: inline-block;
+}
+
 /* END Main-gallery */
 
 /*------------footer------------*/
