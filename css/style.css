@@ -18,10 +18,13 @@ a[name="hover"] {
 #header,
 #main,
 #footer {
-	overflow: hidden;
+	overflow: unset;
+	min-width: 980px;
 }
 
-body {}
+body {
+	background-color: #eee;
+}
 
 #main {
 	background-color: #eee;
@@ -83,15 +86,16 @@ li {
 /* Main-index */
 .main-wrap .main-banner {
 	position: relative;
+	overflow: hidden;
 	text-align: center;
 }
 
-/* .main-wrap .main-banner img {
-	position: absolute;
+ .main-wrap .main-banner img {
+	/*position: absolute;
 	left: 50%;
 	margin-left: -610px;
-	max-height: 535px;
-} */
+	max-height: 535px;*/
+} 
 
 .main-wrap .main-banner .b-t-bg {
 	position: relative;
@@ -427,6 +431,15 @@ ul .pgnow.now a {
 }
 
 /* END Main-blog */
+
+/* Main-gallery */
+#main .m-gallery {
+	overflow: hidden;
+	margin: 20px auto 300px;
+	width: 980px;
+}
+
+/* END Main-gallery */
 
 /*------------footer------------*/
 #footer {
