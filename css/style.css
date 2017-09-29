@@ -450,6 +450,13 @@ ul .pgnow.now a {
 
 .content .nav li {
 	display: inline-block;
+	cursor: pointer;
+	border-top: 4px solid #dfc6e6;
+	padding: 15px 20px 20px;
+}
+
+.content .nav li:hover {
+	border-top: 4px solid #522a5c;
 }
 
 /* END Main-gallery */
