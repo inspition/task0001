@@ -449,7 +449,7 @@ ul .pgnow.now a {
 .content .nav ul {}
 
 .content .nav li {
-	display: inline-block;
+	float: left;
 	cursor: pointer;
 	border-top: 4px solid #dfc6e6;
 	padding: 15px 20px 20px;
