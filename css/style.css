@@ -444,6 +444,7 @@ ul .pgnow.now a {
 .m-gallery .content .nav {
 	display: inline-block;
 	background-color: #fff;
+	max-width: 630px;
 }
 
 .content .nav ul {}
@@ -452,12 +453,53 @@ ul .pgnow.now a {
 	float: left;
 	cursor: pointer;
 	border-top: 4px solid #dfc6e6;
-	padding: 15px 20px 20px;
+	padding: 15px 11px 20px;
 }
 
 .content .nav li:hover {
 	border-top: 4px solid #522a5c;
 }
+
+#main .m-gallery .main {
+	display: grid;
+	grid-template-columns: repeat(4,160px);
+	grid-template-rows: repeat(3,1fr);
+	grid-gap: 10px;
+	grid-auto-flow: column;
+	width: 710px;
+}
+
+.m-gallery .main .item {
+	color: #fff;
+}
+
+.m-gallery .main .item.j {
+	background-color: #522a5c;
+}
+
+.m-gallery .main .item.j.ag {
+	grid-column: span 2;
+}
+
+.m-gallery .main .item.a {
+	background-color: #d9a300;
+}
+
+.m-gallery .main .item.f {
+	background-color: #8c2300;
+}
+
+.m-gallery .main .item.u {
+	background-color: #5900b2;
+}
+
+.main .item .title {}
+
+.item .title span {}
+
+.item .title h1 {}
+
+.tiem .title p {}
 
 /* END Main-gallery */
 
